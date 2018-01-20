@@ -1,0 +1,112 @@
+html, body {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  min-height: 100%;
+}
+
+::selection {
+  background: ;
+}
+
+.container {
+  background: lightgreen;
+}
+
+#logopadis {
+  background: lightblue;
+  height: 150px;
+  font-size: 30px;
+}
+
+#titlepadis {
+  background: blue;
+  height: 150px;
+  font-size: 70px;
+}
+
+#about1, #about2 {
+  background: red;
+  padding: 15px;
+}
+
+#slide1, #slide2 {
+  padding: none;
+  display: none;
+  height: 150px;
+  overflow: auto;
+}
+
+pre {
+  background: green;
+}
+
+#iconpm1, #iconpm2 {
+  width: 30px;
+  height: 30px;
+  background: green;
+  float: right;
+  margin-right: 50px;
+}
+
+form {
+  padding-left: 100px;
+  padding-top: 50px;
+}
+
+input.date {
+  width: 300px;
+}
+
+textarea#adresa {
+  width: 70%;
+  height: 100px;
+  resize: none;
+}
+
+textarea#obs {
+  width: 90%;
+  height: 50;
+  position: relative;
+  left: 5%;
+  overflow-x: hidden;
+  resize: none;
+}
+
+textarea#list {
+  width: 90%;
+  position: relative;
+  left: 5%;
+  height: 400px;
+  resize: none;
+}
+
+#footer {
+  background: red;
+  text-align: center;
+  padding: 15px;
+}
+
+@media only screen and (max-width: 550px) {
+  #titlepadis {
+    display: none;
+  }
+  #iconpm1, #iconpm2 {
+    margin-right: 0;
+  }
+  form {
+    padding-left: 0;
+  }
+  textarea#adresa {
+    width: 200px;
+    height: 100px;
+  }
+  textarea#obs {
+    height: 100px;
+  }
+  input.date {
+    width: 200px;
+  }
+}
