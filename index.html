@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>SC PADIS SRL</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <link rel="stylesheet" href="css/normalize.css" />
+  <link rel="stylesheet" href="css/skeleton.css" />
+  <link rel="stylesheet" href="css/main.css" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="js/script.js"></script>
+
+</head>
+
+<body>
+  <div class="container" id="container1">
+    <div class="row">
+      <div class="u-full-width" id="resp1">
+        <img src="img/logo+s_1.png" />
+      </div>
+      <div class="u-full-width" id="resp2">
+        <img src="img/logo+s_2.png" />
+
+      </div>
+    </div>
+    <div class="row">
+
+
+      <div id="about1" class="u-full-width" onclick="ic1fct()">
+        Cine suntem
+        <div id="iconpm1"></div>
+      </div>
+      <div id="slide1" class="u-full-width">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis doloremque quas reprehenderit enim commodi, earum assumenda! Incidunt dolorem eaque, blanditiis ad sed corporis sint omnis repellendus expedita dolor amet numquam voluptates perspiciatis
+          temporibus cum recusandae nobis cumque ratione. Molestias, dicta at ea dignissimos, ducimus eligendi iste nemo. Assumenda tenetur odio ipsa inventore magni perferendis illo! Tempora, nostrum nihil deleniti quibusdam dolor aspernatur voluptatem!
+          Aspernatur doloribus, ducimus optio nam quas consequatur, architecto voluptates placeat suscipit aut officiis sapiente iste ipsum nulla sequi obcaecati neque id a nobis dolorem velit. Praesentium voluptatem nisi officiis deleniti aliquid, ullam
+          molestias ipsa rerum amet saepe!</p>
+      </div>
+    </div>
+    <div class="row">
+
+
+      <div id="about2" class="u-full-width" onclick="ic2fct()">
+        Termeni si conditii servicii
+        <div id="iconpm2"></div>
+      </div>
+      <div id="slide2" class="u-full-width">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut porro fugiat doloribus pariatur velit, nam nisi aperiam, mollitia odio placeat repellendus tempora recusandae accusamus maiores omnis, illum? Iste debitis rem animi, atque eligendi aperiam
+          officia veniam neque doloremque quas nemo nobis dolorem qui molestias, aliquam incidunt, ad iusto nulla laudantium officiis repudiandae ipsa harum odio sit est. Ducimus error, optio perspiciatis saepe officiis dicta vel praesentium beatae harum
+          culpa hic perferendis provident iusto consectetur neque nesciunt dolorum sunt voluptates odio! Ad perspiciatis odit, asperiores vel nobis esse consectetur aut officia, ipsum qui sequi vitae dolorem! Dolor eius dolores suscipit, numquam cum officia
+          placeat quaerat, obcaecati sed modi neque enim, distinctio est? Praesentium quibusdam totam vero quo hic quas necessitatibus ratione cumque nesciunt repellat fuga minus illo modi temporibus, veniam magnam. Delectus provident laborum, doloremque
+          tenetur, autem cumque perferendis cum, debitis, quibusdam alias dignissimos ut optio voluptas dolorum doloribus ex error quis. Et laboriosam magni nulla porro quae vero id ipsam nostrum pariatur odio assumenda obcaecati rerum deserunt sed, non
+          at sapiente delectus aliquam unde quasi. Labore, impedit ab perferendis ullam quis, nisi quos est, velit ipsam cumque cum vel officiis, sequi iusto dolorem sit. Et aspernatur nam quam, incidunt quas.</p>
+      </div>
+    </div>
+
+    <div class="row">
+      <form>
+        Nume: *<br />
+        <input type="text" name="nume" class="date" />
+        <br /> Telefon: *<br />
+        <input type="text" name="telefon" class="date" />
+        <br /> Intervalul de livrare dorit: * <br />
+        <input type="text" name="inttimp" class="date" />
+        <br /> Magazinul de cumparaturi: *<br />
+        <input type="text" name="magazin" class="date" />
+        <br /> Adresa: * <br />
+        <textarea rows="3" id="adresa"></textarea>
+      </form>
+
+
+    </div>
+    <div class="row">
+      <p>Observatii suplimentare:</p>
+      <textarea id="obs"></textarea>
+      <p>Lista de cumparaturi: * </p>
+      <textarea id="list"></textarea>
+      <button id="fincom" onclick="eraseFunction()">Finalizeaza comanda</button>
+    </div>
+    <div id="footer">
+      <p>
+        SC PADIS SRL
+      </p>
+      <p>
+        -Toate drepturile rezervate-
+      </p>
+    </div>
+  </div>
+
+</body>
+
+</html>
